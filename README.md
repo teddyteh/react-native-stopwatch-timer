@@ -1,6 +1,6 @@
 ## React Native Stopwatch Timer
 
-A React Native component that provides a stopwatch and timer. Forked from https://github.com/michaeljstevens/react-native-stopwatch-timer
+A React Native component that provides a stopwatch and timer. Forked from https://github.com/michaeljstevens/react-native-stopwatch-timer.
 
 <img width="400px" src="./docs/screenshots/Screen Shot 2016-12-03 at 12.54.31 PM.png" />
 
@@ -28,6 +28,8 @@ import { Stopwatch, Timer } from 'react-native-stopwatch-timer'
 |Name|Type|Description|Default|
 |----|----|-----------|------|
 |laps|boolean|will not count the laps of the stopped stopwatch|false|
+|totalDuration (optional)|number|number of milliseconds until the stopwatch stops|null|
+|handleFinish (optional)|function|callback function for when stopwatch reaches the totalDuration|() => console.log("Stopwatch Finished")
 |getTime|function|get the formatted value on each tick|(time) => console.log(time)|
 
 
